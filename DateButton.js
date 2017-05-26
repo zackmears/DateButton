@@ -7,10 +7,10 @@ function DateEntry() {
         if (!isNaN(ThatDate)) {
             alert("Please enter a date");
         } else {
-            showOutput(DateOutput);
+           showOutput(DateOutput);
         }
 
-        return false;
+    
 
     }
 
@@ -20,7 +20,9 @@ function DateEntry() {
 
     }
 
-
+    function showOuput() {
+        var DateInput1 = document.getElementById("DateOuput").value;
+    }
 
     window.onload = init;
 }
